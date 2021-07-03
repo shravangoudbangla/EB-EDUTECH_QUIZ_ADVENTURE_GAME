@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="FRUITS.css" rel="stylesheet">
+  <script defer src="FRUITS.js"></script>
+  <title>Quiz App</title>
+</head>
+<body>
+           
+  <audio id="myAudio">
+    <source src="wrong.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="container">
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+      
+      <img id="image" src="fruit1.png"   width="700px"  height ="300px"> 
+       
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+  </div>
+       <br>
+    <div class ="home">
+        <a href ="index.html"> <button style="font-size:24px">More games</button> </a> </div>
+</body>
+</html>

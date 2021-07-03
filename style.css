@@ -58,7 +58,7 @@ nav a{
 
 .wrapper{
   display: grid;
-  grid-template-columns: 82% 18%;
+  
 }
 
 .equation{
@@ -73,6 +73,7 @@ nav a{
   margin: 10px 10px 0px 10px;
   padding: 160px;
   width:1180px;
+ 
 }
 
 #myImg{
@@ -106,6 +107,41 @@ a:active {
   color: #FF00FF;
 
 
+  
+@media(max-width:768px){
+  .nav h2{
+    font-size: 1.5rem;
+    float: none;
+    text-align: center;
+  }
+
+  nav{
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav li{
+    font-size: 1rem;
+  }
+}
+
+@media(max-width:480px){
+  .nav h2{
+    float: none;
+    text-align: center;
+  }
+
+  .equation h1{
+    display: inline;
+    padding: 10px;
+  } 
+
+  nav li{
+    font-size: .8rem;
+  }
+
+}
 
 
 
@@ -113,3 +149,4 @@ a:active {
 
 
     
+
